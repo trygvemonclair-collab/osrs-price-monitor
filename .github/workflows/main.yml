@@ -23,7 +23,7 @@ jobs:
           python-version: '3.12'
 
       - name: Fetch OSRS prices
-        run: python fetch_prices.py
+        run: python osrs-price-monitor/fetch_prices.py
 
       - name: Commit updated prices
         run: |
